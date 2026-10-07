@@ -17,7 +17,9 @@ assets/
   js/main.js              menu mobile, formulário -> WhatsApp, FAQ, reveal ao rolar, ano do rodapé
   fonts/phosphor/         ícones Phosphor (woff2 local, licença MIT)
   img/
-    icon.svg              mascote (gota com lupa) redesenhado em SVG, também é o favicon
+    logo.png              logo oficial (aparada e reduzida para 640 px), usada no topo e no rodapé
+    logo-original.png     arquivo original enviado pelo cliente (1448x1086, não é carregado pela página)
+    icon.svg              mascote redesenhado em SVG, usado como favicon
     hero.jpg, desentupimento-cozinha.jpg, vazamento-parede.jpg, reparo-tubulacao.jpg, servico-externo.jpg
 ```
 
@@ -46,7 +48,7 @@ Google.
   nome. Confirmar se fazem tudo (ex.: caixa de gordura, hidrojateamento, limpa-fossa).
 - **Método de caça vazamentos:** o site diz que localiza o ponto antes de abrir, sem citar equipamento (geofone,
   gás traçador...). Se usarem algum, vale destacar.
-- **Logo:** o mascote foi redesenhado em SVG a partir da estampa da camiseta. Pedir a logo original em arquivo.
+- **Favicon:** usa o mascote redesenhado em SVG (no arquivo da logo o mascote encosta nas letras e não dá para recortar limpo). Se tiver o mascote separado, trocar `icon.svg`.
 
 ## Depoimentos
 

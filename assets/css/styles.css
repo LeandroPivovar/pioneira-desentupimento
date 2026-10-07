@@ -63,14 +63,11 @@ section { padding: clamp(60px, 9vw, 104px) 0; }
 
 /* Marca (como no uniforme) */
 .brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; }
-.brand img { width: 42px; height: 42px; }
-.brand-text { display: flex; flex-direction: column; line-height: 1; }
-.brand-text b { font-family: var(--font-head); font-weight: 900; font-size: 1.32rem; letter-spacing: .01em; text-transform: uppercase; color: #fff; }
-.brand-text small { font-family: var(--font-head); font-weight: 700; font-size: .6rem; letter-spacing: .06em; text-transform: uppercase; color: rgba(255,255,255,.85); margin-top: 4px; }
-.brand-text small span { color: var(--gold); }
+.brand img { height: 62px; width: auto; }
+.footer-brand .brand img { height: 92px; }
 
 /* Header */
-.site-header { position: fixed; inset: 0 0 auto 0; z-index: 100; height: 74px; display: flex; align-items: center; }
+.site-header { position: fixed; inset: 0 0 auto 0; z-index: 100; height: 78px; display: flex; align-items: center; }
 .site-header::before { content: ""; position: absolute; inset: 0; z-index: -1; background: rgba(13,42,79,.93); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line-dk); }
 .site-header .wrap { display: flex; align-items: center; gap: 24px; width: min(100% - 40px, 1260px); }
 .site-header .brand { margin-right: auto; }
@@ -229,7 +226,7 @@ section { padding: clamp(60px, 9vw, 104px) 0; }
   .signs-grid { grid-template-columns: repeat(2, 1fr); }
   .band-grid, .contact-grid, .faq-grid { grid-template-columns: 1fr; }
   .band-cta { text-align: left; }
-  .nav { position: fixed; inset: 74px 0 auto 0; flex-direction: column; align-items: stretch; gap: 0; background: var(--navy); border-bottom: 1px solid var(--line-dk); padding: 8px 20px 20px; box-shadow: var(--shadow-md); transform: translateY(-140%); transition: transform .28s ease; visibility: hidden; }
+  .nav { position: fixed; inset: 78px 0 auto 0; flex-direction: column; align-items: stretch; gap: 0; background: var(--navy); border-bottom: 1px solid var(--line-dk); padding: 8px 20px 20px; box-shadow: var(--shadow-md); transform: translateY(-140%); transition: transform .28s ease; visibility: hidden; }
   .nav.open { transform: none; visibility: visible; }
   .nav a { padding: 14px 0; border-bottom: 1px solid var(--line-dk); }
   .nav a::after { display: none; }
