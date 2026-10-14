@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  var WA = "5547992926875";
+  var WA = "5547991116331";
 
   var ano = document.getElementById("ano");
   if (ano) ano.textContent = new Date().getFullYear();

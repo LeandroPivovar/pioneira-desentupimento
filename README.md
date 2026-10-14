@@ -31,7 +31,7 @@ para a web (900 px no hero, 640 px nas demais).
 | Campo | Valor |
 |---|---|
 | Nome | Pioneira Desentupimentos e Caça Vazamentos (como no uniforme; no Google: "Pioneira Desentupimento e Caça Vazamentos") |
-| WhatsApp / telefone | (47) 99292-6875 (`wa.me/5547992926875`) |
+| WhatsApp / telefone | (47) 99111-6331 (`wa.me/5547991116331`) |
 | Horário | Fecha às 19h (Google) |
 | Google | https://share.google/2ZElGEj7IxpXvu4kd (link no contato e no rodapé) |
 
